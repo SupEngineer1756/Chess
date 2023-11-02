@@ -19,10 +19,10 @@ public class King extends Piece{
     public King(Color color,int x,int y) throws IOException{
         super(PieceType.King,color,x,y);
         if (color == Piece.Color.Black) {
-           img=ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Bking.png"));
+           img=ImageIO.read(new File("UI\\Bking.png"));
            //img=ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Bking.png"));
         } else {
-            img=ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Wking.png"));
+            img=ImageIO.read(new File("UI\\Wking.png"));
             //img=ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Wking.png"));
         }
     }

@@ -22,10 +22,10 @@ public class Knight extends Piece {
     public Knight(Color color, int x, int y) throws IOException {
         super(PieceType.Knight, color, x, y);
         if (color == Piece.Color.Black) {
-            img = ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Bknight.png"));
+            img = ImageIO.read(new File("UI\\Bknight.png"));
             //img=ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Bknight.png"));
         } else {
-            img = ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Wknight.png"));
+            img = ImageIO.read(new File("UI\\Wknight.png"));
             //img=ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Wknight.png"));
         }
     }

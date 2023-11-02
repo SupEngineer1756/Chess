@@ -21,10 +21,10 @@ public class Queen extends Piece{
     public Queen(Piece.Color color,int x,int y) throws IOException{
         super(Piece.PieceType.Queen,color, x,y);
         if (color == Piece.Color.Black) {
-           img=ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Bqueen.png"));
+           img=ImageIO.read(new File("UI\\Bqueen.png"));
            //img=ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Bqueen.png"));
         } else {
-           img=ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Wqueen.png"));
+           img=ImageIO.read(new File("UI\\Wqueen.png"));
           //img=ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Wqueen.png"));
         }
     }

@@ -22,10 +22,10 @@ public class Soldier extends Piece {
     public Soldier(Piece.Color color, int x, int y) throws IOException {
         super(Piece.PieceType.Soldier, color, x, y);
         if (color == Piece.Color.Black) {
-            img = ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Bpawn.png"));
+            img = ImageIO.read(new File("UI\\Bpawn.png"));
             //img = ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Bpawn.png"));
         } else {
-            img = ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Wpawn.png"));
+            img = ImageIO.read(new File("UI\\Wpawn.png"));
             //img = ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Wpawn.png"));
         }
     }

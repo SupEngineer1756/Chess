@@ -20,7 +20,7 @@ public class voide extends Piece {
 
     public voide(int x, int y) throws IOException {
         super(PieceType.voide, Color.Nope, x, y);
-        img = ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Bpawn.png"));
+        img = ImageIO.read(new File("UI\\Bpawn.png"));
     }
 
     @Override

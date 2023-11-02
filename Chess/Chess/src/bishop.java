@@ -20,10 +20,10 @@ public class bishop extends Piece {
     public bishop(Piece.Color color, int x, int y) throws IOException {
         super(Piece.PieceType.Bishop, color, x, y);
         if (color == Piece.Color.Black) {
-            img=ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Bbishop.png"));
+            img=ImageIO.read(new File("UI\\Bbishop.png"));
             //img = ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Bbishop.png"));
         } else {
-            img=ImageIO.read(new File("C:\\Users\\RafikMedici\\Desktop\\Software Dev\\Java projects\\Chess\\Chess\\UI\\Wbishop.png"));
+            img=ImageIO.read(new File("UI\\Wbishop.png"));
             //img = ImageIO.read(new File("Z:\\Mes documents\\java\\java\\Chess\\Chess\\UI\\Wbishop.png"));
         }
     }
